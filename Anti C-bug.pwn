@@ -1,3 +1,5 @@
+#include <a_samp>
+
 public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 {
 
@@ -21,4 +23,4 @@ public MakeCBug(playerid)
     return 1;
 }
 
-// Made by Ahmed AKA Lil$Moon.
+// Made by Lil$Moon.
