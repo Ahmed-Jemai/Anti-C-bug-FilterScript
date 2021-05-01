@@ -17,7 +17,7 @@ public MakeCBug(playerid)
 
 	new Float:spx, Float:spy, Float:spz;
 	GetPlayerPos(playerid, spx, spy, spz); 
-    SetPlayerPos(playerid, spx, spy, spz+2); // this will make the player fly. You can change it to the action you wnat.
+    SetPlayerPos(playerid, spx, spy, spz+2); // this will make the player fly. You can change it to the action you want.
     GameTextForPlayer(playerid, "Do not use C-Bug", 2000, 6);
     PlayerPlaySound(playerid, 1130, 0.0, 0.0, 0.0); // this will play Slapping sound.
     return 1;
